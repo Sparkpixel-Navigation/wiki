@@ -39,8 +39,7 @@ jobs:
           npm run build
           cd  .vuepress
           cd dist
-          ls -a
-          cd dist
+
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
