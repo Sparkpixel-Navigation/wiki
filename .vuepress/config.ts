@@ -7,7 +7,7 @@ export default defineUserConfig({
   title: "Sparkpixel Server Wiki",
   description: "Sparkpixel服务器WIKI",
   bundler: viteBundler(),
-  base: '/viki/',
+  base: '/wiki/',
   // bundler: webpackBundler(),
   theme: recoTheme({
 
