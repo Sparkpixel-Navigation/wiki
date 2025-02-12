@@ -37,8 +37,9 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           npm run build
+          cd  .vuepress
           ls -a
-          > .vuepress/dist/
+          cd /dist/
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
