@@ -37,6 +37,7 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           npm run build
+          ls
           > .vuepress/dist/
 
       - name: 部署文档
