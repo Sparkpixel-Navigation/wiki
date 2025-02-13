@@ -70,7 +70,7 @@ export default defineUserConfig({
           children: [
             {
               text: "打赏",
-              link: "/docs/others/donate.html",
+              link: "https://donate-sparkpixel.bu7.top",
             },
           ],
         },
