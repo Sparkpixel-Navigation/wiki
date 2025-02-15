@@ -28,6 +28,7 @@ export default defineUserConfig({
       { text: "Home", link: "/" },
       { text: "快速开始", link: "/docs/start/introduce.html" },
       { text: "公告", link: "/docs/notice/all.html" },
+      { text: "处罚通知", link: "/docs/banlist.html" },
       {
         text: "各部门页面",
         children: [
